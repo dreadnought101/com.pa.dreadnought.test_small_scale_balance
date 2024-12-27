@@ -13,8 +13,5 @@ Air Scout
 Stinger
 -Removed from game
 
-Spark
--Turret yaw rotation reduced 360 to 180 (same as ant)
-
 Boombot
 -Added air targetting parameters for pelican purposes
