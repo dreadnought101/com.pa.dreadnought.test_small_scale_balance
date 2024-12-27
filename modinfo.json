@@ -1,0 +1,45 @@
+{
+    "context": "server",
+    "identifier": "com.pa.dreadnought.test_small_scale_balance",
+    "display_name": "Quick Balance Tweeks",
+    "description": "Quick adjustments to a few units for testing in isolation, seperate from my other Dreadnought Balance mod which does major reworks for a number of units and makes far more tweeks.  Current Version Stryker reduced speed, increased range, targets AA.  Bot Fab decreased build rate/energy drain.  Air scout cost increase.  Stinger Removed.",
+    "author": "Dreadnought",
+    "version": "1.01",
+    "date": "2024-12-26",
+    "build": "115853",
+    "signature": " meh ",
+    "priority": 92,
+    "enabled": true,
+    "icon": "https://i.imgur.com/tUPAmBC.png",
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/599640035961117942/",
+    "fileSystem": false,
+    "searchable": [
+        "adjustments",
+        "units",
+        "change",
+        "stats",
+        "balance",
+        "dreadnought"
+    ],
+    "sort": "Dreadnought Balance Mod",
+    "authors": [
+		"Dreadnought"
+    ],
+	"scenes": {
+		"shared_build": [
+			"coui://ui/mods/mla.unit.addon/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
+		]
+	},
+    "dependencies": [],
+    "companions": [],
+    "framework": false,
+    "available": true,
+    "titansOnly": true,
+    "classicOnly": false,
+    "classic": false,
+    "titans": true,
+    "conflicts": {}
+}
