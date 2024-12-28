@@ -9,7 +9,7 @@ Bot fab
 
 Air Scout
 -Cost increased 60 to 90
--Health increased 25 to 80 
+-Health increased 25 to 85 
 
 Stinger
 -Removed from game
