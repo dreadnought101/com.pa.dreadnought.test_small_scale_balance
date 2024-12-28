@@ -5,14 +5,14 @@ Stryker
 
 Bot fab
 -decreased build rate from 8m/s to 7m/s
--decreased energy consumption from 600 to 525
+-decreased energy consumption from 600 to 550
 
 Air Scout
--Metal cost increased 60 to 75
+-Cost increased 60 to 90
+-Health increased 25 to 80 
 
 Stinger
 -Removed from game
 
 Boombot
--Added air targetting parameters
-(Mostly for purposes of following beneath pelicans, WIP and bug testing still)
+-Added air targetting parameters for pelican purposes
