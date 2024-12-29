@@ -16,3 +16,9 @@ Stinger
 
 Boombot
 -Added air targetting parameters for pelican purposes
+(Still WIP and testing for bugs, control issues)
+
+Horsefly
+-Rate of fire reduced from 8.0 to 4.0 (Fires 4x2 times a second)
+-Damage per projectile increased 10 to 20
+(Looking at a specific late game issue where lots of horseflies firing can cause sim/frame loss and testing if overkilling  will have an impact)
