@@ -4,8 +4,8 @@
     "display_name": "Quick Balance Tweeks",
     "description": "Quick adjustments to a few units for testing in isolation, seperate from my other Dreadnought Balance mod which does major reworks for a number of units and makes far more tweeks.  Current Version Stryker reduced speed, increased range, targets AA.  Bot Fab decreased build rate/energy drain.  Air scout cost increase.  Stinger Removed.",
     "author": "Dreadnought",
-    "version": "1.02",
-    "date": "2024-1-5",
+    "version": "1.03",
+    "date": "2024-1-16",
     "build": "115853",
     "signature": " meh ",
     "priority": 92,
@@ -31,5 +31,5 @@
 			"coui://ui/mods/mla.unit.addon/icon_atlas.js"
 		]
 	},
-    "titansOnly": true,
+    "titansOnly": true
 }
