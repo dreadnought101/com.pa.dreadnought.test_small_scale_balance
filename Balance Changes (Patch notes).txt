@@ -1,24 +1,125 @@
-Stryker
--added AA targeting
--increased range from 75 to 80
--decreased speed from 17 to 15
+---General Changes
 
-Bot fab
--decreased build rate from 8m/s to 7m/s
--decreased energy consumption from 600 to 550
+All units now leave the same amount of metal in their wreckage equal to half of their original build cost.
+-Commander wreckage fraction increased from 0.5 to 1
+-Air/Bot/Vehicle/Naval wreckage fraction increased from 0.7 to 1
+-Structures (Unchanged from 1)
+-Zues/Ares/Atlas/Colonel individual wreckage fraction removed (Now same as updated wreckage)
 
-Air Scout
--Cost increased 60 to 90
--Health increased 25 to 85 
+Commander
+-Death nuke Damage increased from 2000 to 3000
+-Death nuke Splash Radius increased from 110 to 130
+-Death nuke no longer damages allies.
+
+
+---Bots
+
+Bot Fabricator
+-Metal rate decreased from 8/s to 7/s
+-Energy drain decreased 600/s to 525/s
 
 Stinger
--Removed from game
+-Removed from bot factory in multiplayer (still buildable in Galactic War dependant on loadout and tech)
+
+Slammer
+-Sub type added (Will no longer be ignored by torpedo weapon priorities when submerged)
+
+Locust
+-Metal cost increased from 260 to 500
+-Health increased from 80 to 160
+-Rate of Fire increased from 5 to 10
+-Vision increased 40 to 45
 
 Boombot
--Added air targetting parameters for pelican purposes
+-Added air targeting parameters for pelican purposes
 (Still WIP and testing for bugs, control issues)
+
+
+---Vehicles
+
+Skitter
+-`UNITTYPE_Offense` added (Can now be selected with other combat units)
+
+Stryker
+-Added AA targeting
+-Range increased from 75 to 80
+-Speed decreased from 17 to 15
+
+Drifter
+-Damage` increased from 120 to 125
+-Projectile Velocity increased from 150 to 200
+-Turret Idle Aim Delay increased 3 to 5
+-Added target priorities sequence
+    `Mobile & Advanced`
+    `Commander`
+    `Mobile - Air`
+    `Structure - Wall`
+    `Wall`
+
+Leveler
+-Turret Idle Aim Delay increased 3 to 5
+
+
+---Air
+
+Air Scout
+-Cost increased 60 to 100 (90)
+-Health increased 25 to 85 
 
 Horsefly
 -Rate of fire reduced from 8.0 to 4.0 (Fires 4x2 times a second)
 -Damage per projectile increased 10 to 20
 (Looking at a specific late game issue where lots of horseflies firing can cause sim/frame loss and testing if overkilling  will have an impact)
+
+
+---Naval
+
+Naval fab
+-Health increased from 100 to 150
+-Move Speed increased from 10 to 12
+-Turn Speed increased from 90 to 120
+
+Piranha
+-Health decreased from 175 to 150
+-Move Speed decreased from 20 to 18
+
+Narwhal
+-AA weapon Rate Of Fire decreased from 3 to 2.5
+-AA weapon Max Range decreased from 150 to 120
+-Torpedo Weapon Damage decreased from 250 to 200
+
+Stingray
+-Missile velocity increased from 80 to 120 
+   ~Projectile lifetime decreased from 60 to 40
+
+Typhoon
+-Build Metal Cost updated from 90 to 30 (Does not affect gameplay but reflects the actual cost of squalls in UI)
+-Drone Gaurd Radius 250 to 100
+-Drone Vision 150 to 50
+
+
+---Orbital
+
+Omega
+-Side-Guns Max Range decreased from 150 to 130
+-Metal Cost increased 14000 to 15500
+
+
+---Structures
+
+T2 Metal Extractor
+-Increased Selection Radius from 28 to 36
+(Quality of Life test: Purpose is to help select a T2 extractor when both a T1 extractor [currently at 24 selection diameter] and it are on the same metal node)
+
+Teleporter
+-Health decreased from 9750 to 7000    
+-Metal Cost increased from 800 to 1000
+
+Catapult
+-Rate of Fire decreased from 0.4 to 0.25 (Fires once every 2.5 seconds to once every 4 seconds)
+-Target Priorities added:
+    `Mobile & Advanced`
+    `Commander`
+    `Mobile - Air`
+    `Structure - Wall`
+    `Wall`
