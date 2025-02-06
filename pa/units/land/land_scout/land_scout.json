@@ -4,7 +4,7 @@
     "description": "!LOC:Scout - Fast. Can see far away and detects mines. Does not attack.",
     "max_health": 10,
     "build_metal_cost": 75,
-	"guard_layer": "WL_AnySurface",
+    "guard_layer": "WL_AnySurface",
     "attachable": {
         "offsets": {
             "root": [
@@ -28,26 +28,27 @@
     ],
     "tools": [
         {
-          "spec_id": "/pa/units/land/land_scout/land_scout_tool_dummy_weapon.json",
-          "aim_bone": "bone_root",
-          "muzzle_bone": "bone_root",
-          "show_range": false
+            "spec_id": "/pa/units/land/land_scout/land_scout_tool_dummy_weapon.json",
+            "aim_bone": "bone_root",
+            "muzzle_bone": "bone_root",
+            "show_range": false
         }
-      ],
+    ],
     "unit_types": [
         "UNITTYPE_Custom58",
+        "UNITTYPE_Offense",
         "UNITTYPE_Tank",
         "UNITTYPE_Vehicle",
         "UNITTYPE_Scout",
         "UNITTYPE_Mobile",
         "UNITTYPE_Land",
         "UNITTYPE_Basic",
-        "UNITTYPE_FactoryBuild",
-		"UNITTYPE_Offense"
+        "UNITTYPE_FactoryBuild"
     ],
     "transportable": {
         "size": 1
     },
+    "guard_radius": 0,
     "navigation": {
         "type": "land-small",
         "acceleration": 250,
@@ -95,8 +96,8 @@
             "audio_cue": "/SE/Build_Complete/veh"
         },
         "fired": {
-            "audio_cue": "/SE/Weapons/veh/land_scout_fire",
-            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
+            "audio_cue": "",
+            "effect_spec": ""
         },
         "died": {
             "audio_cue": "/SE/Death/Veh_small",
