@@ -39,6 +39,7 @@ Boombot
 
 Skitter
 -`UNITTYPE_Offense` added (Can now be selected with other combat units)
+-Hidden attribute Rate of Fire increased (reduces sound bug, no gameplay modifications)
 
 Stryker
 -Added AA targeting
