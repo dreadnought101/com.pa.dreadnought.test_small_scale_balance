@@ -6,6 +6,7 @@ All units now leave the same amount of metal in their wreckage equal to half of 
 -Structures (Unchanged from 1)
 -Zues/Ares/Atlas/Colonel individual wreckage fraction removed (Now same as updated wreckage)
 
+
 Commander
 -Death nuke Damage increased from 2000 to 3000
 -Death nuke Splash Radius increased from 110 to 130
@@ -63,14 +64,27 @@ Leveler
 
 ---Air
 
+Basic Fabrication Aircraft
+-Health increased 25 to 100
+
 Air Scout
--Cost increased 60 to 100 (90)
+-Cost increased 60 to 100
 -Health increased 25 to 85 
+
+Hornet
+-Health increased 500 to 600
 
 Horsefly
 -Rate of fire reduced from 8.0 to 4.0 (Fires 4x2 times a second)
 -Damage per projectile increased 10 to 20
 (Looking at a specific late game issue where lots of horseflies firing can cause sim/frame loss and testing if overkilling  will have an impact)
+
+Pelican
+-Added UNITTYPE_Offense (Allows the icarus to be combat selected alongside other air units)
+
+Icarus
+-Fixed an issue that an Icarus would not retarget a new unit after leaving the range of its previous target.
+-Fixed a Gaurd Layer issue so attack move commands are more consistent as well as added a gaurd range of 100 so idle icarus will aggro to nearby targets.
 
 
 ---Naval
