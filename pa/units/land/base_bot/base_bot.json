@@ -7,12 +7,25 @@
     "armor_type": "AT_Bot",
     "lod_hide_pixelsize": 32.0,
     "guard_radius": 50,
-    "unit_types": ["UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Land", "UNITTYPE_NoBuild"],
-    "command_caps": ["ORDER_Move", "ORDER_Patrol", "ORDER_Attack", "ORDER_Assist", "ORDER_Use"],
-    "wreckage_health_frac": 0.7,
+    "unit_types": [
+        "UNITTYPE_Bot",
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Land",
+        "UNITTYPE_NoBuild"
+    ],
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Patrol",
+        "ORDER_Attack",
+        "ORDER_Assist",
+        "ORDER_Use"
+    ],
+    "wreckage_health_frac": 1.0,
     "wreckage": {
         "remove_ground_cost_stamp": true,
-        "collision": ["none"]
+        "collision": [
+            "none"
+        ]
     },
     "navigation": {
         "type": "land-small",
@@ -27,16 +40,20 @@
         "park_stamp": {
             "shape": "sphere",
             "cost": 10,
-            "type_data": [{
+            "type_data": [
+                {
                     "move_type": "land-small",
                     "stamp_type": "simple"
-                }, {
+                },
+                {
                     "move_type": "amphibious",
                     "stamp_type": "simple"
-                }, {
+                },
+                {
                     "move_type": "hover",
                     "stamp_type": "simple"
-                }, {
+                },
+                {
                     "move_type": "water-hover",
                     "stamp_type": "simple"
                 }
@@ -49,12 +66,14 @@
     },
     "recon": {
         "observer": {
-            "items": [{
+            "items": [
+                {
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 85
-                }, {
+                },
+                {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
@@ -96,14 +115,25 @@
         }
     },
     "death": {
-        "decals": ["/pa/effects/specs/scorch_a_01.json"]
+        "decals": [
+            "/pa/effects/specs/scorch_a_01.json"
+        ]
     },
-    "fx_offsets": [{
+    "fx_offsets": [
+        {
             "type": "phasing",
             "filename": "/pa/effects/specs/fab_spray.pfx",
             "bone": "bone_root",
-            "offset": [0, 0, 5],
-            "orientation": [90, 0, 0]
+            "offset": [
+                0,
+                0,
+                5
+            ],
+            "orientation": [
+                90,
+                0,
+                0
+            ]
         }
     ],
     "TEMP_texelinfo": 1.0
