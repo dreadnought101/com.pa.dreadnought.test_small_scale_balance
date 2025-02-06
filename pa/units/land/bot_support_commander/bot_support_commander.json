@@ -8,7 +8,6 @@
     "buildable_types": "(Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild | Titan & Bot) & Custom58",
     "show_in_orbital_layer": true,
     "armor_type": "AT_Commander",
-    "wreckage_health_frac": 0.5,
     "attachable": {
         "offsets": {
             "root": [

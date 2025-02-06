@@ -3,13 +3,13 @@
     "unit_name": "Teleporter",
     "display_name": "!LOC:Teleporter",
     "description": "!LOC:Interplanetary Teleporter: Teleports units between linked Teleporters.",
-    "max_health": 9750,
-    "build_metal_cost": 800,
+    "max_health": 7000,
+    "build_metal_cost": 1000,
     "atrophy_rate": 6.66667,
-    "atrophy_cool_down": 15,
+    "atrophy_cool_down": 15.0,
     "spawn_layers": "WL_LandHorizontal",
     "area_build_type": "Line",
-    "energy_efficiency_requirement": 1,
+    "energy_efficiency_requirement": 1.0,
     "flip_drag_orientation": true,
     "unit_types": [
         "UNITTYPE_Custom58",
@@ -20,7 +20,8 @@
         "UNITTYPE_FabAdvBuild",
         "UNITTYPE_CombatFabAdvBuild",
         "UNITTYPE_CombatFabBuild",
-        "UNITTYPE_FabOrbBuild"
+        "UNITTYPE_FabOrbBuild",
+        "UNITTYPE_Important"
     ],
     "command_caps": [
         "ORDER_Move",
@@ -174,7 +175,7 @@
         "range": 30
     },
     "selection_icon": {
-        "diameter": 63
+        "diameter": 63.0
     },
     "mesh_bounds": [
         42.4,

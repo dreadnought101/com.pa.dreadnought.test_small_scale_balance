@@ -6,7 +6,7 @@
     "build_metal_cost": 30000,
     "atrophy_rate": 200.0,
     "atrophy_cool_down": 15.0,
-    "wreckage_health_frac": 0.7,
+    "wreckage_health_frac": 1.0,
     "guard_radius": 100,
     "has_death_effects": true,
     "attachable": {

@@ -16,5 +16,12 @@
         "WL_LandHorizontal",
         "WL_WaterSurface",
         "Orbital"
+    ],
+    "target_priorities": [
+        "Mobile & Advanced",
+        "Commander",
+        "Mobile - Air",
+        "Structure - Wall",
+        "Wall"
     ]
 }
