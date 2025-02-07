@@ -87,17 +87,17 @@
         "fired0": {
             "audio_cue": "/SE/Weapons/sea/destroyer_fire",
             "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle01 /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle01",
-            "effect_scale": 5
+            "effect_scale": 5.0
         },
         "fired1": {
             "audio_cue": "/SE/Weapons/sea/destroyer_fire",
             "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle02 /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle02",
-            "effect_scale": 5
+            "effect_scale": 5.0
         },
         "fired2": {
             "audio_cue": "/SE/Weapons/sea/torpedo_fire",
             "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_torpedoMuzzle",
-            "effect_scale": 5
+            "effect_scale": 5.0
         },
         "died": {
             "audio_cue": "/SE/Death/Sea_large",
@@ -122,7 +122,7 @@
         }
     ],
     "selection_icon": {
-        "diameter": 22
+        "diameter": 22.0
     },
     "TEMP_texelinfo": 22.1895
 }
