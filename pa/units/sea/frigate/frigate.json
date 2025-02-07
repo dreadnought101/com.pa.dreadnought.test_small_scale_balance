@@ -101,7 +101,7 @@
         "fired2": {
             "audio_cue": "/SE/Weapons/sea/torpedo_fire",
             "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_torpedoMuzzle",
-            "effect_scale": 5.0
+            "effect_scale": 5
         },
         "died": {
             "audio_cue": "/SE/Death/Sea_large",
@@ -126,7 +126,7 @@
         }
     ],
     "selection_icon": {
-        "diameter": 23.0
+        "diameter": 23
     },
     "TEMP_texelinfo": 19.1546
 }
