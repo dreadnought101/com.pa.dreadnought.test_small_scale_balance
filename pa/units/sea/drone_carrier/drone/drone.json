@@ -1,10 +1,10 @@
 {
     "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
     "display_name": "Squall",
-    "description": "!LOC:Missile and Torpedo Drone - Fast, fragile, attacks sea and air.",
+    "description": "!LOC:Missile and Torpedo Drone - Fast, fragile, attacks land, sea and air.",
     "max_health": 40,
-    "build_metal_cost": 30,
-    "guard_radius": 100,
+    "build_metal_cost": 90,
+    "guard_radius": 250,
     "passive_health_regen": -3,
     "nearby_target_tick_update_interval": 3,
     "unit_types": [
@@ -22,8 +22,8 @@
         "move_speed": 80,
         "turn_speed": 240,
         "aggressive_behavior": "circle",
-        "aggressive_distance": 100.0,
-        "aggressive_height": 100.0,
+        "aggressive_distance": 100,
+        "aggressive_height": 100,
         "bank_factor": 10,
         "vertical_speed": 200
     },
@@ -38,13 +38,13 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 50
+                    "radius": 150
                 },
                 {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 50
+                    "radius": 150
                 }
             ]
         }
@@ -107,7 +107,7 @@
         }
     ],
     "selection_icon": {
-        "diameter": 11.0
+        "diameter": 11
     },
     "TEMP_texelinfo": 5.39039,
     "mesh_bounds": [

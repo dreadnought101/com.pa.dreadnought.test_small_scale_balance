@@ -3,7 +3,7 @@
     "unit_name": "Fabrication Ship",
     "display_name": "!LOC:Fabrication Ship",
     "description": "!LOC:Basic Fabricator - Builds basic naval structures. Water hover.",
-    "max_health": 150,
+    "max_health": 100,
     "build_metal_cost": 200,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [
@@ -48,8 +48,8 @@
         "type": "water-hover",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 12,
-        "turn_speed": 120,
+        "move_speed": 10,
+        "turn_speed": 90,
         "park_stamp_type": "sphere",
         "park_stamp_cost": 10
     },
@@ -157,7 +157,7 @@
         }
     ],
     "selection_icon": {
-        "diameter": 13.0
+        "diameter": 13
     },
     "TEMP_texelinfo": 7.50603
 }
