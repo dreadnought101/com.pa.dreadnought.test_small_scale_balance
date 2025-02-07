@@ -11,7 +11,8 @@
     "auto_attack": true,
     "target_layers": [
         "WL_LandHorizontal",
-        "WL_WaterSurface"
+        "WL_WaterSurface",
+        "WL_Air"
     ],
     "target_priorities": [
         "AirDefense | Air",

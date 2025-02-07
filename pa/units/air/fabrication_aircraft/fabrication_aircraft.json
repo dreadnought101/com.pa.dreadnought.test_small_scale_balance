@@ -3,7 +3,7 @@
     "unit_name": "Fabrication Aircraft",
     "display_name": "!LOC:Fabrication Aircraft",
     "description": "!LOC:Basic Fabricator - Build basic structures. Weaker than other fabricators.",
-    "max_health": 25,
+    "max_health": 100,
     "build_metal_cost": 225,
     "attachable": {
         "offsets": {

@@ -2,7 +2,7 @@
     "base_spec": "/pa/ammo/base_beam/base_beam.json",
     "damage": 1500,
     "splash_damage": 500,
-    "splash_radius": 40,
+    "splash_radius": 50,
     "full_damage_splash_radius": 5,
     "damage_volume": {
         "initial_radius": 5.0,
