@@ -108,7 +108,7 @@ Stingray
    ~Projectile lifetime decreased from 60 to 40
 
 Typhoon
--Build Metal Cost updated from 90 to 30 (Does not affect gameplay but reflects the actual cost of squalls in UI)
+-Build Metal Cost updated from 90 to 30 (Does not affect the Typhoon's build rate but reflects the actual cost of squalls in UI)
 -Drone Gaurd Radius 250 to 100
 -Drone Vision 150 to 50
 
