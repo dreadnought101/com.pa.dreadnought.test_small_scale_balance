@@ -109,6 +109,8 @@ Stingray
 
 Typhoon
 -Build Metal Cost updated from 90 to 30 (Does not affect the Typhoon's build rate but reflects the actual cost of squalls in UI)
+-Drone Gaurd Radius 250 to 100
+-Drone Vision 150 to 50
 
 
 ---Orbital
