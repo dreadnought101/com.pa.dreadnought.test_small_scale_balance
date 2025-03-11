@@ -3,8 +3,8 @@
 All units now leave the same amount of metal in their wreckage equal to half of their original build cost.
 -Commander wreckage fraction increased from 0.5 to 1
 -Air/Bot/Vehicle/Naval wreckage fraction increased from 0.7 to 1
--Structures (Unchanged from 1)
--Zues/Ares/Atlas/Colonel individual wreckage fraction removed (Now same as updated wreckage)
+-Structures [Unchanged from 1]
+-Zues/Ares/Atlas/Colonel individual wreckage fraction removed [Now same as updated wreckage]
 
 
 Commander
@@ -20,10 +20,10 @@ Bot Fabricator
 -Energy drain decreased 600/s to 525/s
 
 Stinger
--Removed from bot factory in multiplayer (still buildable in Galactic War dependant on loadout and tech)
+-Removed from bot factory in multiplayer [still buildable in Galactic War dependant on loadout and tech]
 
 Slammer
--Sub type added (Will no longer be ignored by torpedo weapon priorities when submerged)
+-Sub type added [Will no longer be ignored by torpedo weapon priorities when submerged]
 
 Locust
 -Metal cost increased from 260 to 500
@@ -39,8 +39,8 @@ Boombot
 ---Vehicles
 
 Skitter
--`UNITTYPE_Offense` added (Can now be selected with other combat units)
--Hidden attribute Rate of Fire increased (reduces sound bug, no gameplay modifications)
+-`UNITTYPE_Offense` added [Can now be selected with other combat units]
+-Hidden attribute Rate of Fire increased [A temporary fix to reduce or eliminate a sound bug, no gameplay modifications]
 
 Stryker
 -Added AA targeting
@@ -75,12 +75,12 @@ Hornet
 -Health increased 500 to 600
 
 Horsefly
--Rate of fire reduced from 8.0 to 4.0 (Fires 4x2 times a second)
+-Rate of fire reduced from 8.0 to 4.0 [Fires 4x2 times a second]
 -Damage per projectile increased 10 to 20
 (Looking at a specific late game issue where lots of horseflies firing can cause sim/frame loss and testing if overkilling  will have an impact)
 
 Pelican
--Added UNITTYPE_Offense (Allows the icarus to be combat selected alongside other air units)
+-Added UNITTYPE_Offense [Allows the pelican to be combat selected alongside other air units]
 
 Icarus
 -Fixed an issue that an Icarus would not retarget a new unit after leaving the range of its previous target.
@@ -108,7 +108,9 @@ Stingray
    ~Projectile lifetime decreased from 60 to 40
 
 Typhoon
--Build Metal Cost updated from 90 to 30 (Does not affect the Typhoon's build rate but reflects the actual cost of squalls in UI)
+-Build Metal Cost updated from 90 to 30 [Does not affect the Typhoon's build rate but reflects the actual cost of squalls in UI]
+-Drone Gaurd Radius 250 to 100
+-Drone Vision 150 to 50
 
 
 ---Orbital
@@ -120,6 +122,10 @@ Omega
 
 ---Structures
 
+Basic Air Factory
+-Rolloff timer increased from 2 to 3 seconds
+(Helps disincentive early game boosting of an air factory that's been prevelant in competitive games) 
+
 T2 Metal Extractor
 -Increased Selection Radius from 28 to 36
 (Quality of Life test: Purpose is to help select a T2 extractor when both a T1 extractor [currently at 24 selection diameter] and it are on the same metal node)
@@ -129,7 +135,7 @@ Teleporter
 -Metal Cost increased from 800 to 1000
 
 Catapult
--Rate of Fire decreased from 0.4 to 0.25 (Fires once every 2.5 seconds to once every 4 seconds)
+-Rate of Fire decreased from 0.4 to 0.25 [Fires once every 2.5 seconds to once every 4 seconds]
 -Target Priorities added:
     `Mobile & Advanced`
     `Commander`
